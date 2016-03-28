@@ -1,0 +1,107 @@
+#main-nav {
+  margin-bottom: 0; }
+  #main-nav .container {
+    width: 980px; }
+  #main-nav .navbar-brand {
+    height: auto; }
+  #main-nav h1 {
+    margin-top: 10px;
+    font-family: "Merriweather", serif;
+    color: #f45800; }
+  #main-nav .input-group, #main-nav ul {
+    margin-top: 30px; }
+  #main-nav ul {
+    list-style-type: none;
+    padding: 0; }
+    #main-nav ul a {
+      text-decoration: none;
+      color: grey; }
+  #main-nav li {
+    display: inline-block;
+    text-align: center;
+    padding: 0 10px; }
+    #main-nav li:not(:last-child) {
+      border-right: 1px solid lightgrey; }
+  #main-nav .glyphicon {
+    font-size: 20px;
+    margin: 0 15px 5px 15px;
+    display: block; }
+
+#filter {
+  border-top: 0;
+  padding: 10px; }
+  #filter .container {
+    width: 980px; }
+  #filter ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0; }
+  #filter li {
+    display: inline-block;
+    margin: auto; }
+
+#jumbo {
+  width: 980px; }
+  #jumbo h1 {
+    font-family: "Merriweather", serif; }
+  #jumbo .jumbotron {
+    background-image: url("https://images.unsplash.com/photo-1454873019514-eae2f086587a?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=c18a396c481845cce89abb6a9e0e9257");
+    background-position-y: 67%;
+    color: #f45800; }
+
+#home {
+  width: 980px; }
+  #home .photo-box {
+    width: 100%; }
+    #home .photo-box img {
+      width: 100%; }
+  #home a {
+    color: black; }
+  #home h2 {
+    font-family: "Merriweather", serif; }
+
+#listing {
+  width: 980px; }
+  #listing .panel-body {
+    padding: 50px; }
+  #listing .container {
+    width: 100%; }
+  #listing .photo-box {
+    width: 100%; }
+    #listing .photo-box img {
+      width: 100%; }
+  #listing h2, #listing h3 {
+    font-family: "Merriweather", serif; }
+  #listing .glyphicon {
+    font-size: 10px; }
+
+.tag-list ul {
+  list-style-type: none; }
+
+.tag-list li {
+  color: grey;
+  display: inline-block; }
+  .tag-list li:before {
+    content: '#'; }
+  .tag-list li:after {
+    content: ',\ ;'; }
+
+#cart .container {
+  width: 980px; }
+
+#cart .list-title {
+  font-family: "Merriweather", serif; }
+
+#cart a {
+  color: black; }
+
+#cart input {
+  margin-top: 6px; }
+
+#cart .photo-box img {
+  width: 100%; }
+
+#cart .listing {
+  padding: 20px 0;
+  border-bottom: 1px solid lightgrey; }
