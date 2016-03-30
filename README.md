@@ -1,4 +1,4 @@
-# fartsy-cart
+# Fartsy Cart
 An shopping cart app built with AngularJS, Bootstrap, and the Etsy API
 
 ----------------------------------
