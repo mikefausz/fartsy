@@ -6,11 +6,11 @@ angular
         templateUrl: "templates/home.html",
         controller: 'MainController'
       })
-      .when('/listing/:listing_id', {
+      .when('http://mikefausz.github.io/fartsy/#/listing/:listing_id', {
         templateUrl: "templates/listing.html",
         controller: 'MainController'
       })
-      .when('/cart', {
+      .when('http://mikefausz.github.io/fartsy/#/cart', {
         templateUrl: "templates/cart.html",
         controller: 'CartController'
       });
