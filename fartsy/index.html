@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Fartsy</title>
+    <link rel="stylesheet" href="styles/styles.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>
+  </head>
+  <body ng-app="etsyCart">
+    <nav class="navbar navbar-default" id="main-nav">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="/#/"><h1>Fartsy</h1></a>
+        </div>
+        <div class="input-group">
+          <input ng-model="search" type="text" class="form-control" placeholder="">
+          <span class="input-group-btn">
+            <button class="btn btn-info" type="button">Search</button>
+          </span>
+        </div>
+      </div>
+      <div class="col-lg-6 text-right">
+        <ul>
+          <li><a href="/#/"><span class="glyphicon glyphicon-home" aria-hidden="true"></span>Home</a></li>
+          <li><a href="http://mikefausz.github.io/fartsy/#/cart"><span class="glyphicon glyphicon-shopping-cart" aria-hidden="true"></span>Cart</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<nav class="navbar navbar-default" id="filter">
+<div class="container">
+  <ul>
+    <li>Clothing & Accessories</li>
+    <li>Jewelry</li>
+    <li>Craft Supplies & Tools</li>
+    <li>Weddings</li>
+    <li>Entertainment</li>
+    <li>Home & Living</li>
+    <li>Kids & Baby</li>
+    <li>Vintage</li>
+  </ul>
+</div>
+</nav>
+
+
+    <ng-view></ng-view>
+
+    <script src="bower_components/jquery/dist/jquery.js" charset="utf-8"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js" charset="utf-8"></script>
+    <script src="bower_components/angular/angular.js" charset="utf-8"></script>
+    <script src="bower_components/angular-route/angular-route.js" charset="utf-8"></script>
+    <script src="app.module.js" charset="utf-8"></script>
+    <script src="controllers/app.controller.js" charset="utf-8"></script>
+    <script src="controllers/cart.controller.js" charset="utf-8"></script>
+    <script src="services/app.service.js" charset="utf-8"></script>
+    <script src="services/cart.service.js" charset="utf-8"></script>
+  </body>
+</html>

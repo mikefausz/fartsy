@@ -1,0 +1,19 @@
+{
+  "name": "etsy-cart",
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "^1.5.2",
+    "bootstrap": "^3.3.6"
+  }
+}
